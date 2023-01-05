@@ -22,13 +22,50 @@
   padding: 28px 231px;
 }
 .btn-primary {
-  
-    background-color: #FE5959;
-    color: white;
-    padding: 20px 25px;
-    border: none;
-    border-radius: 4px;
-    font-size: 20px;
+  background-color: #fe5959;
+  color: white;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Styling donate today    */
+.donate-today {
+  text-align: center;
+  padding: 105px 266px;
+}
+.doante-today-title {
     font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 15px;
+}
+.donate-today-subtitle {
+    color: #C1C1C1;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0px 68px 31px 100px;
 
 }
+.donation-today-money-button{
+    background-color: whitesmoke; /* Green */
+    border: none;
+    color: black;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.donation-today-money-button:hover{
+    background-color: rgb(177, 129, 129);
+    color: rgb(27, 25, 25);
+    border: 1px solid red;
+
+}
+
