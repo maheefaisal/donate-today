@@ -36,6 +36,14 @@
   text-align: center;
   padding: 105px 266px;
 }
+.donate-today input{
+    border: none;
+    padding: 0px 271px;
+    display: flex;
+    border-radius: 5px;
+    margin: 35px 0px 36px 62px;
+}
+
 .doante-today-title {
     font-weight: 700;
     font-size: 48px;
@@ -54,18 +62,15 @@
     color: black;
     padding: 50px 50px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 5px;
+
 }
 .donation-today-money-button:hover{
-    background-color: rgb(177, 129, 129);
+    background-color: rgb(201, 123, 123);
     color: rgb(27, 25, 25);
-    border: 1px solid red;
+
 
 }
 
