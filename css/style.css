@@ -221,3 +221,21 @@ p {
   margin-left: 50px;
 
 }
+/* Styling footer  */
+.footer{
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px
+  
+}
+.footer-title{
+  color: #fe5959;
+  text-align: center;
+margin-left: 10px;
+margin-bottom: 20px;
+
+}
+.footer-subtitle{
+  color: white;
+  text-align: center;
+}
