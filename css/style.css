@@ -36,41 +36,133 @@
   text-align: center;
   padding: 105px 266px;
 }
-.donate-today input{
-    border: none;
-    padding: 0px 271px;
-    display: flex;
-    border-radius: 5px;
-    margin: 35px 0px 36px 62px;
+.donate-today input {
+  text-align: center;
+  border: none;
+  padding: 0px 271px;
+  display: flex;
+  margin: 35px 0px 36px 62px;
+  border-bottom: 2px solid black;
 }
 
-.doante-today-title {
-    font-weight: 700;
-    font-size: 48px;
-    padding-bottom: 15px;
+.donate-today-title {
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 15px;
 }
 .donate-today-subtitle {
-    color: #C1C1C1;
-    font-weight: 700;
-    font-size: 20px;
-    padding: 0px 68px 31px 100px;
+  color: #c1c1c1;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0px 68px 31px 100px;
+}
+.donation-today-money-button {
+  background-color: whitesmoke; /* Green */
+  border: none;
+  color: black;
+  padding: 50px 50px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.donation-today-money-button:hover {
+  background-color: rgb(201, 123, 123);
+  color: rgb(27, 25, 25);
+}
+/* Styling the our donation plan  */
+.our-donate-plan {
+  text-align: center;
+  padding: 105px 266px;
+}
+.our-donate-plan-title {
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 15px;
+}
+.donate-today-subtitle {
+  color: #c1c1c1;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0px 68px 31px 100px;
+}
+.our-donate-plan-method {
+  display: flex;
+  gap: 25px;
+  
+}
+.our-donate-plan h2,
+p {
+  text-align: left;
+}
+
+.our-donate-plan-method-one img {
+  height: 40px;
+  width: 40px;
+  position: left;
+  padding: 50px 232px 36px 0px;
+}
+.our-donate-plan-method-two img {
+  height: 40px;
+  width: 40px;
+  position: left;
+  padding: 50px 232px 36px 0px;
+}
+.our-donate-plan-method-three img {
+  height: 40px;
+  width: 40px;
+  position: left;
+  padding: 50px 232px 36px 0px;
+}
+.our-donate-plan-method-one h2 {
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.our-donate-plan-method-one p {
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+.our-donate-plan-method-two p {
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+.our-donate-plan-method-three p {
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+.our-donate-plan-method-two h2 {
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.our-donate-plan-method-three h2 {
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.our-donate-plan-method-one {
+  background-color: #edf5f6;
+  border-radius: 10px;
+}
+.our-donate-plan-method-two {
+  background-color: #ffeeee;
+  border-radius: 10px;
 
 }
-.donation-today-money-button{
-    background-color: whitesmoke; /* Green */
-    border: none;
-    color: black;
-    padding: 50px 50px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-
-}
-.donation-today-money-button:hover{
-    background-color: rgb(201, 123, 123);
-    color: rgb(27, 25, 25);
-
+.our-donate-plan-method-three {
+  background-color: #fff4d6;
+  border-radius: 10px;
 
 }
 
+.our-donate-plan-method img , h2, p{
+    padding-left: 20px;
+
+}
