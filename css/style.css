@@ -176,6 +176,7 @@ p {
 .live-depend-on-donation-image img{
   height: 430px;
   width: 450px;
+  border-radius: 5px;
 }
 .live-depend-on-donation-banner h1{
   margin-top: 55px;
@@ -199,4 +200,8 @@ p {
   border-radius: 5px;
   color: white;
   font-size:  15px;
+}
+/* Styling they need us  */
+.they-need-us{
+  margin-top: 100px;
 }
