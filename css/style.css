@@ -205,3 +205,19 @@ p {
 .they-need-us{
   margin-top: 100px;
 }
+/* Styling Get My updates */
+.get-update-email-input input {
+  border: none;
+  background:#d8d6d6;
+  border-radius:4px;
+  padding: 23px 100px 23px 0px;
+  text-align: left;
+  margin-left:15px;
+}
+.get-update-email-input{
+  background-color: #fff4d6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 50px;
+
+}
